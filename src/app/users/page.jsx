@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 
 
@@ -6,9 +7,8 @@ const UsersData= async() => {
     const users=await res.json();
 
     return (
-        <div>
-            <h1>Users Details</h1>
-            <div className="grid grid-cols-4 gap-4 container">
+        <div className="">
+            <div className="grid grid-cols-4 gap-4 container py-[40px]">
             {
                 users.map(user => <div key={user.id} className="">
                     <div className="card bg-pink-300 max-w-[300px] ">
@@ -17,7 +17,7 @@ const UsersData= async() => {
                       <p> {user.email} </p>
                       <p> {user.address.city} </p>
     <div className="card-actions justify-end">
-      <button className="btn">See More</button>
+      <Link href={`/users/${user.id}`} className="btn">See More</Link>
     </div>
   </div>
 </div>
