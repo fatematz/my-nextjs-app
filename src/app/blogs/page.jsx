@@ -1,0 +1,57 @@
+import Link from "next/link";
+
+
+const BlogPage=() => {
+const blogData = [
+  {
+    id: 1,
+    title: "Mastering Next.js App Router",
+    description: "Learn how to build modern web applications using the powerful App Router features in Next.js.",
+    author: "Fatema",
+    date: "April 5, 2026",
+    category: "Technology"
+  },
+  {
+    id: 2,
+    title: "Why JavaScript is King in 2026",
+    description: "Exploring the evolution of JavaScript and why it remains the top choice for developers worldwide.",
+    author: "Zohura",
+    date: "April 6, 2026",
+    category: "Programming"
+  },
+  {
+    id: 3,
+    title: "The Power of Tailwind CSS",
+    description: "Build beautiful, responsive user interfaces faster than ever with utility-first CSS classes.",
+    author: "Fatema Tuj",
+    date: "April 7, 2026",
+    category: "Design"
+  },
+  {
+    id: 4,
+    title: "Getting Started with React Server Components",
+    description: "A beginner-friendly guide to understanding how Server Components improve performance and SEO.",
+    author: "Fatema Zohura",
+    date: "April 8, 2026",
+    category: "Frontend"
+  }
+];
+
+    return (
+        <div>
+            {
+                blogData.map(blog => ( 
+                    <div key={blog.id} >
+                        <h1 className="text-3xl">
+                            {blog.title} 
+                        </h1>
+                        
+                        <Link href={`/blogs/${blog.id}`}>Show Details</Link>
+                        </div>)
+                )
+            }
+        </div>
+    );
+};
+
+export default BlogPage;
