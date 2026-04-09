@@ -29,7 +29,6 @@ const DestinationPage = () => {
     <section className="bg-white py-16">
       <div className="container mx-auto px-4">
         
-        {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-800">
             Popular <span className="text-pink-500">Destinations</span> 📍
@@ -40,14 +39,12 @@ const DestinationPage = () => {
           </p>
         </div>
 
-        {/* Destination Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {destinations.map((place) => (
             <div 
               key={place.id} 
               className="group border border-gray-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300"
             >
-              {/* Image Section */}
               <div className="relative overflow-hidden">
                 <img
                   src={place.image}
@@ -59,7 +56,6 @@ const DestinationPage = () => {
                 </div>
               </div>
 
-              {/* Content Section */}
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-800 group-hover:text-pink-500 transition">
                   {place.name}

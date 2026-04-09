@@ -1,10 +1,9 @@
 const Footer = () => {
   return (
-    <footer className="bg-white border-t mt-10">
+    <footer className="bg-white border-t mt-10 ">
       
-      <div className="max-w-7xl mx-auto px-4 py-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="max-w-7xl mx-auto px-4 py-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4 container">
 
-        {/* BRAND */}
         <div>
           <h2 className="text-2xl font-bold text-pink-500">TravelGuide</h2>
           <p className="mt-3 text-gray-600 text-sm">
@@ -12,7 +11,6 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* QUICK LINKS */}
         <div>
           <h3 className="text-lg font-semibold text-gray-800 mb-3">Quick Links</h3>
           <ul className="space-y-2 text-gray-600">
@@ -23,7 +21,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* RESOURCES */}
         <div>
           <h3 className="text-lg font-semibold text-gray-800 mb-3">Resources</h3>
           <ul className="space-y-2 text-gray-600">
@@ -34,7 +31,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* SUBSCRIBE */}
         <div>
           <h3 className="text-lg font-semibold text-gray-800 mb-3">Subscribe</h3>
           <p className="text-sm text-gray-600 mb-3">
@@ -55,7 +51,6 @@ const Footer = () => {
 
       </div>
 
-      {/* COPYRIGHT */}
       <div className="text-center text-sm text-gray-500 pb-5">
         © 2026 TravelGuide. All rights reserved.
       </div>

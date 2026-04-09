@@ -17,7 +17,7 @@ const DashBoardLayout = ({ children }) => {
     };
 
     return (
-        <div className="container">
+        <div className="container p-6">
             <div className="drawer lg:drawer-open">
                 <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
                 

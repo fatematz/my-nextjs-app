@@ -29,8 +29,8 @@ const ToursPage = () => {
   ];
 
   return (
-    <section className="bg-white py-16 lg:py-24">
-      <div className="max-w-6xl mx-auto px-4">
+    <section className="bg-white py-16 lg:py-24 ">
+      <div className=" px-4 container">
 
         <div className="text-center mb-12">
           <h1 className="text-3xl lg:text-4xl font-bold text-gray-800">
