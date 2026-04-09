@@ -3,13 +3,11 @@ import React from 'react';
 const ProfilePage = () => {
     return (
         <div className="p-6 bg-gray-50 min-h-screen">
-            {/* প্রোফাইল হেডার কার্ড */}
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-6">
                 <div className="h-32 bg-gradient-to-r from-pink-400 to-pink-600"></div>
                 <div className="px-8 pb-8">
                     <div className="relative flex justify-between items-end -mt-12">
                         <div className="p-1 bg-white rounded-2xl shadow-sm">
-                            {/* ইমেজের বদলে জেনেরিক ইউজার আইকন সেকশন */}
                             <div className="w-32 h-32 bg-gray-100 rounded-xl flex items-center justify-center border-4 border-white overflow-hidden">
                                 <div className="w-full h-full flex flex-col items-center justify-center bg-gray-200 text-gray-400">
                                     <div className="w-10 h-10 bg-gray-400 rounded-full mb-1"></div>
@@ -35,9 +33,7 @@ const ProfilePage = () => {
                 </div>
             </div>
 
-            {/* ইনফরমেশন গ্রিড */}
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-                {/* পার্সোনাল ডিটেইলস */}
                 <div className="lg:col-span-1 space-y-6">
                     <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
                         <h3 className="font-bold text-gray-800 mb-4 border-b pb-2">Information</h3>
@@ -58,7 +54,6 @@ const ProfilePage = () => {
                     </div>
                 </div>
 
-                {/* প্রোজেক্ট বা অ্যাক্টিভিটি সামারি */}
                 <div className="lg:col-span-2 space-y-6">
                     <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
                         <h3 className="font-bold text-gray-800 mb-4 border-b pb-2">My Stats</h3>

@@ -32,7 +32,6 @@ const ToursPage = () => {
     <section className="bg-white py-16 lg:py-24">
       <div className="max-w-6xl mx-auto px-4">
 
-        {/* TITLE */}
         <div className="text-center mb-12">
           <h1 className="text-3xl lg:text-4xl font-bold text-gray-800">
             Our <span className="text-pink-500">Tours</span>
@@ -42,7 +41,6 @@ const ToursPage = () => {
           </p>
         </div>
 
-        {/* TOURS GRID */}
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {tours.map((tour, index) => (
             <div

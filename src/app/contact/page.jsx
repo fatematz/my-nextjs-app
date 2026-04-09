@@ -3,7 +3,6 @@ const ContactPage = () => {
     <section className="bg-white py-16 lg:py-24">
       <div className="max-w-4xl mx-auto px-4">
 
-        {/* TITLE */}
         <div className="text-center mb-12">
           <h1 className="text-4xl lg:text-5xl font-bold text-gray-800">
             Contact <span className="text-pink-500">Us</span>
@@ -13,7 +12,6 @@ const ContactPage = () => {
           </p>
         </div>
 
-        {/* FORM */}
         <div className="bg-gray-50 p-8 rounded-xl shadow-md">
           <form className="grid gap-6">
 
@@ -51,7 +49,6 @@ const ContactPage = () => {
           </form>
         </div>
 
-        {/* CONTACT INFO */}
         <div className="mt-12 text-center text-gray-700">
           <p>📞 Call us: <span className="font-semibold">+880 1234 567890</span></p>
           <p>✉️ Email: <span className="font-semibold">info@travelguide.com</span></p>
