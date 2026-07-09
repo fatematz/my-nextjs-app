@@ -1,12 +1,16 @@
 # 🌍 TravelGuide
 
-TravelGuide is a modern travel-based web application built with Next.js.  
-It allows users to explore different destinations and get useful travel-related information in a clean and user-friendly interface.
 
----
 
 ## 🚀 Live Demo
 🔗 https://my-next-app-lilac-nine.vercel.app
+
+<img width="1919" height="913" alt="Screenshot 2026-04-09 222254" src="https://github.com/user-attachments/assets/1bbc68a8-b9df-4e9b-bf1e-0461837bf5e3" />
+
+---
+
+TravelGuide is a modern travel-based web application built with Next.js.  
+It allows users to explore different destinations and get useful travel-related information in a clean and user-friendly interface.
 
 ---
 
@@ -44,7 +48,7 @@ my-nextjs-app/
 ---
 
 
-<img width="1919" height="913" alt="Screenshot 2026-04-09 222254" src="https://github.com/user-attachments/assets/1bbc68a8-b9df-4e9b-bf1e-0461837bf5e3" />
+
 
 
 
